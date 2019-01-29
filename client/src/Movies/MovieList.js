@@ -51,7 +51,7 @@ function MovieDetails({ movie }) {
           {star}
         </div>
       ))}
-      <Link to={`movies/${movie.id}`}>Click Me!</Link>
+      <Link to={`movies/${id}`}>Click Me!</Link>
     </div>
   );
 }
